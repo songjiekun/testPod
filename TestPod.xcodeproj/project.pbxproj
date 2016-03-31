@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80298BF81CAD18CC003E95CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298BF71CAD18CC003E95CD /* main.m */; };
+		80298BFB1CAD18CC003E95CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298BFA1CAD18CC003E95CD /* AppDelegate.m */; };
+		80298BFE1CAD18CC003E95CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298BFD1CAD18CC003E95CD /* ViewController.m */; };
+		80298C011CAD18CC003E95CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80298BFF1CAD18CC003E95CD /* Main.storyboard */; };
+		80298C031CAD18CC003E95CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80298C021CAD18CC003E95CD /* Assets.xcassets */; };
+		80298C061CAD18CC003E95CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80298C041CAD18CC003E95CD /* LaunchScreen.storyboard */; };
+		80298C111CAD18CC003E95CD /* TestPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298C101CAD18CC003E95CD /* TestPodTests.m */; };
+		80298C1C1CAD18CC003E95CD /* TestPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298C1B1CAD18CC003E95CD /* TestPodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80298C0D1CAD18CC003E95CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80298BEB1CAD18CC003E95CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80298BF21CAD18CC003E95CD;
+			remoteInfo = TestPod;
+		};
+		80298C181CAD18CC003E95CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80298BEB1CAD18CC003E95CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80298BF21CAD18CC003E95CD;
+			remoteInfo = TestPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80298BF31CAD18CC003E95CD /* TestPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80298BF71CAD18CC003E95CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80298BF91CAD18CC003E95CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80298BFA1CAD18CC003E95CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80298BFC1CAD18CC003E95CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80298BFD1CAD18CC003E95CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80298C001CAD18CC003E95CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80298C021CAD18CC003E95CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80298C051CAD18CC003E95CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80298C071CAD18CC003E95CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80298C0C1CAD18CC003E95CD /* TestPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80298C101CAD18CC003E95CD /* TestPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodTests.m; sourceTree = "<group>"; };
+		80298C121CAD18CC003E95CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80298C171CAD18CC003E95CD /* TestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80298C1B1CAD18CC003E95CD /* TestPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodUITests.m; sourceTree = "<group>"; };
+		80298C1D1CAD18CC003E95CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80298BF01CAD18CC003E95CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C091CAD18CC003E95CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C141CAD18CC003E95CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80298BEA1CAD18CC003E95CD = {
+			isa = PBXGroup;
+			children = (
+				80298BF51CAD18CC003E95CD /* TestPod */,
+				80298C0F1CAD18CC003E95CD /* TestPodTests */,
+				80298C1A1CAD18CC003E95CD /* TestPodUITests */,
+				80298BF41CAD18CC003E95CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80298BF41CAD18CC003E95CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80298BF31CAD18CC003E95CD /* TestPod.app */,
+				80298C0C1CAD18CC003E95CD /* TestPodTests.xctest */,
+				80298C171CAD18CC003E95CD /* TestPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80298BF51CAD18CC003E95CD /* TestPod */ = {
+			isa = PBXGroup;
+			children = (
+				80298BF91CAD18CC003E95CD /* AppDelegate.h */,
+				80298BFA1CAD18CC003E95CD /* AppDelegate.m */,
+				80298BFC1CAD18CC003E95CD /* ViewController.h */,
+				80298BFD1CAD18CC003E95CD /* ViewController.m */,
+				80298BFF1CAD18CC003E95CD /* Main.storyboard */,
+				80298C021CAD18CC003E95CD /* Assets.xcassets */,
+				80298C041CAD18CC003E95CD /* LaunchScreen.storyboard */,
+				80298C071CAD18CC003E95CD /* Info.plist */,
+				80298BF61CAD18CC003E95CD /* Supporting Files */,
+			);
+			path = TestPod;
+			sourceTree = "<group>";
+		};
+		80298BF61CAD18CC003E95CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80298BF71CAD18CC003E95CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80298C0F1CAD18CC003E95CD /* TestPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				80298C101CAD18CC003E95CD /* TestPodTests.m */,
+				80298C121CAD18CC003E95CD /* Info.plist */,
+			);
+			path = TestPodTests;
+			sourceTree = "<group>";
+		};
+		80298C1A1CAD18CC003E95CD /* TestPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80298C1B1CAD18CC003E95CD /* TestPodUITests.m */,
+				80298C1D1CAD18CC003E95CD /* Info.plist */,
+			);
+			path = TestPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80298BF21CAD18CC003E95CD /* TestPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80298C201CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPod" */;
+			buildPhases = (
+				80298BEF1CAD18CC003E95CD /* Sources */,
+				80298BF01CAD18CC003E95CD /* Frameworks */,
+				80298BF11CAD18CC003E95CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPod;
+			productName = TestPod;
+			productReference = 80298BF31CAD18CC003E95CD /* TestPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80298C0B1CAD18CC003E95CD /* TestPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80298C231CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPodTests" */;
+			buildPhases = (
+				80298C081CAD18CC003E95CD /* Sources */,
+				80298C091CAD18CC003E95CD /* Frameworks */,
+				80298C0A1CAD18CC003E95CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80298C0E1CAD18CC003E95CD /* PBXTargetDependency */,
+			);
+			name = TestPodTests;
+			productName = TestPodTests;
+			productReference = 80298C0C1CAD18CC003E95CD /* TestPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80298C161CAD18CC003E95CD /* TestPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80298C261CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPodUITests" */;
+			buildPhases = (
+				80298C131CAD18CC003E95CD /* Sources */,
+				80298C141CAD18CC003E95CD /* Frameworks */,
+				80298C151CAD18CC003E95CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80298C191CAD18CC003E95CD /* PBXTargetDependency */,
+			);
+			name = TestPodUITests;
+			productName = TestPodUITests;
+			productReference = 80298C171CAD18CC003E95CD /* TestPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80298BEB1CAD18CC003E95CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "song jiekun";
+				TargetAttributes = {
+					80298BF21CAD18CC003E95CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					80298C0B1CAD18CC003E95CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 80298BF21CAD18CC003E95CD;
+					};
+					80298C161CAD18CC003E95CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 80298BF21CAD18CC003E95CD;
+					};
+				};
+			};
+			buildConfigurationList = 80298BEE1CAD18CC003E95CD /* Build configuration list for PBXProject "TestPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80298BEA1CAD18CC003E95CD;
+			productRefGroup = 80298BF41CAD18CC003E95CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80298BF21CAD18CC003E95CD /* TestPod */,
+				80298C0B1CAD18CC003E95CD /* TestPodTests */,
+				80298C161CAD18CC003E95CD /* TestPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80298BF11CAD18CC003E95CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80298C061CAD18CC003E95CD /* LaunchScreen.storyboard in Resources */,
+				80298C031CAD18CC003E95CD /* Assets.xcassets in Resources */,
+				80298C011CAD18CC003E95CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C0A1CAD18CC003E95CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C151CAD18CC003E95CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80298BEF1CAD18CC003E95CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80298BFE1CAD18CC003E95CD /* ViewController.m in Sources */,
+				80298BFB1CAD18CC003E95CD /* AppDelegate.m in Sources */,
+				80298BF81CAD18CC003E95CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C081CAD18CC003E95CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80298C111CAD18CC003E95CD /* TestPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80298C131CAD18CC003E95CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80298C1C1CAD18CC003E95CD /* TestPodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80298C0E1CAD18CC003E95CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80298BF21CAD18CC003E95CD /* TestPod */;
+			targetProxy = 80298C0D1CAD18CC003E95CD /* PBXContainerItemProxy */;
+		};
+		80298C191CAD18CC003E95CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80298BF21CAD18CC003E95CD /* TestPod */;
+			targetProxy = 80298C181CAD18CC003E95CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80298BFF1CAD18CC003E95CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80298C001CAD18CC003E95CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80298C041CAD18CC003E95CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80298C051CAD18CC003E95CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80298C1E1CAD18CC003E95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80298C1F1CAD18CC003E95CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80298C211CAD18CC003E95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80298C221CAD18CC003E95CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80298C241CAD18CC003E95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPod.app/TestPod";
+			};
+			name = Debug;
+		};
+		80298C251CAD18CC003E95CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPod.app/TestPod";
+			};
+			name = Release;
+		};
+		80298C271CAD18CC003E95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPod;
+			};
+			name = Debug;
+		};
+		80298C281CAD18CC003E95CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greenumbrellastudio.com.TestPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80298BEE1CAD18CC003E95CD /* Build configuration list for PBXProject "TestPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80298C1E1CAD18CC003E95CD /* Debug */,
+				80298C1F1CAD18CC003E95CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80298C201CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80298C211CAD18CC003E95CD /* Debug */,
+				80298C221CAD18CC003E95CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80298C231CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80298C241CAD18CC003E95CD /* Debug */,
+				80298C251CAD18CC003E95CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80298C261CAD18CC003E95CD /* Build configuration list for PBXNativeTarget "TestPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80298C271CAD18CC003E95CD /* Debug */,
+				80298C281CAD18CC003E95CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80298BEB1CAD18CC003E95CD /* Project object */;
+}
