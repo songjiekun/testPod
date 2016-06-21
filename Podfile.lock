@@ -1,0 +1,10 @@
+PODS:
+  - IOSLazyImage (0.1.0)
+
+DEPENDENCIES:
+  - IOSLazyImage (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  IOSLazyImage: ad655f7c5f6ef7f245333b9677d8a7d3d6156c30
+
+COCOAPODS: 0.38.2

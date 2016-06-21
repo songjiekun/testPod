@@ -8,7 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+/**
+ *  淡入淡出时间
+ */
+#define ItemSpace 10
+
+/**
+ *  展示图片的collectionview
+ */
+@property (weak,nonatomic) IBOutlet UICollectionView *galleryCollectionView;
+
+@property (strong,nonatomic) NSMutableArray<NSString *> *urlArray;
+
 
 
 @end
